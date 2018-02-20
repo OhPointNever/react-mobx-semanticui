@@ -6,6 +6,6 @@ export default class Template {
     @action changeName(newName) {
         this.name = 'Bar'
     }
-
+    
     @computed get nameAndNumber() => this.name + '123'
 }
